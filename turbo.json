@@ -5,7 +5,7 @@
       "outputs": ["dist/**", ".next/**"]
     },
     "postbuild": {
-      "dependsOn": ["^postbuild"],
+      "dependsOn": ["^build", "^postbuild"],
       "outputs": [
         "dist/**",
         ".next/**",
